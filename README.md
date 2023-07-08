@@ -1,6 +1,6 @@
 # DoraOS
 
-DoraOS 是我个人所写的RTOS内核，结合FreeRTOS、uCOS, RT-Thread, LiteOS 的特性所写，取其精华，去其糟粕，本项目将持续维护，欢迎大家fork与star。
+DoraOS 是 jiejieTop 所写的RTOS内核，结合FreeRTOS、uCOS, RT-Thread, LiteOS 的特性所写，取其精华，去其糟粕，本项目将持续维护，欢迎大家fork与star。
 
 名字的由来：Dora 谐音为哆啦，我个人非常喜欢哆啦A梦，梦想有一天能将哆啦A梦2577集看完（可惜程序员太忙没时间）.... OS则为操作系统 Operating System。
 
