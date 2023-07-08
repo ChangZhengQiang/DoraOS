@@ -422,8 +422,8 @@ dos_err dos_task_delete(dos_task_t task)
 
     if (task != dos_current_task) {
         /**If the deleted task is not the current task, then release the task control block and the task stack */
-        dos_mem_free(task);
         dos_mem_free(task->stack_addr);
+        dos_mem_free(task);
         return DOS_OK;
     } else {
         /* Insert recycle list, Reserved not implemented*/
